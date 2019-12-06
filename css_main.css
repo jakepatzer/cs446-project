@@ -1,0 +1,89 @@
+
+
+.image {
+  float: left;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+.arrow_buttons {
+  display: inline-flex;
+  width: 400px;
+}
+.arrow_buttons button {
+  padding: 0px;
+  width: 50%;
+  border: line;
+  background: gold;
+  color: #000;
+}
+.arrow_buttons button #img {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.week_list_main {
+  border-style: inset;
+  float: left;
+  padding: 5px;
+  width: 400px;
+}
+.week_list_main button {
+  width: 100%;
+  padding: 15px;
+  border: line;
+  font-size: 1rem;
+  text-align: left;
+  background: gold;
+  color: #000;
+
+}
+
+.main {
+  display: block;
+  border: line;
+  margin: auto;
+}
+
+
+table {
+  width: 400px;
+}
+
+table th {
+	height: 90px;
+}
+
+tr:nth-child(even) {background-color: #CCC;}
+
+table#sample {
+  border-style: solid;
+  border-width: thin;
+  border-color: #000;
+
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 30px; */
+}
+body {
+  background-color: #939393;
+  padding: 15px;
+  border-style: double;
+  border-width: thick;
+  border-color: #000;
+
+  max-width: 837px;
+  min-height: 800px;
+  margin: auto;
+
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 30px; */
+}
