@@ -8,7 +8,7 @@ let date = 1;
 function generateButtons(data, date) {
   let date_temp = date;
   var more=document.getElementById("week_list");
-  for (let i = 0; i < data.length-1; i++) {
+  for (let i = 0; i < data.length; i++) {
     var btn=document.createElement("button");
     btn.innerHTML=data[i] + " Dec " +date_temp;
     date_temp += 1;
@@ -31,7 +31,7 @@ function generateTopButtons(){
 }
 
 function leftArrowClicked(){
-  
+
 }
 
 
